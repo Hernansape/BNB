@@ -1,7 +1,7 @@
 name: Check JSON Schema
 
 on:
-  push:
+  push:https://github.com/Herand19/BNB/actions/workflows/npm-grunt.yml
   pull_request:
 
 jobs:
