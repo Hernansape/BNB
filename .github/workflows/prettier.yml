@@ -17,5 +17,4 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-npm-
       - name: Run prettier
-        run: |-Linux-npm-54ac2aba50b7667407879930695be8694c50f1677af02000b3c6ebf699b6730a
-          npx prettier --check '_data/*/*.json'
+        run: https://github.com/Herand19/BNB/actions/workflows/deploy.yml
