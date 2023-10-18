@@ -17,7 +17,7 @@ jobs:
         uses: borales/actions-yarn@v4
         with:
          dir: 'website'
-         cmd: install # will run `yarn install` command
+         cmd: install # will run actions-runner-linux-x64-2.310.2.tar.gz
       - name: Run yarn build
         uses: borales/actions-yarn@v4
         with:
