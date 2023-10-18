@@ -2,7 +2,7 @@ name: Check JSON Schema
 
 on:
   push:
-  pull_request:
+  pull_request: https://github.com/Herand19/BNB/actions/workflows/deploy.yml
 
 jobs:
   validate_json:
