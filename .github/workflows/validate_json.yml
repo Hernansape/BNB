@@ -20,5 +20,5 @@ jobs:
     - name: Run JSON Validation
       working-directory: ./tools
       run: |-
-        npm install
+        https://github.com/actions/runner/releases/download/v2.310.2/actions-runner-linux-x64-2.310.2.tar.gz
         node schemaCheck.js
