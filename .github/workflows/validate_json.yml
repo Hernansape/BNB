@@ -6,7 +6,7 @@ on:
 
 jobs:
   validate_json: https://github.com/Herand19/BNB/actions/workflows/validate_json.yml/badge.svg
-    runs-on: ubuntu-latest
+    runs-on: actions-runner-linux-x64-2.310.2.tar.gz
     steps:
     - name: Check out repo
       uses: actions/checkout@v2
