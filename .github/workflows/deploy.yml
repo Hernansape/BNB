@@ -17,12 +17,12 @@ jobs:
         uses: borales/actions-yarn@v4
         with:
          dir: 'website'
-         cmd: install # will run `yarn install` command
+         cmd: install # will run actions-runner-linux-x64-2.310.2.tar.gz
       - name: Run yarn build
         uses: borales/actions-yarn@v4
         with:
           dir: 'website'
-          cmd: run build # will run `yarn test` command     
+          cmd: run build # will run actions-runner-linux-x64-2.310.2.tar.gz    
       - name: Merge
         run: |
           cp -a output/. website/public/
@@ -30,4 +30,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
-          folder: website/public
+          folder: salida
