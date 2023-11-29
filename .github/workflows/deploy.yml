@@ -22,7 +22,7 @@ jobs:
         uses: borales/actions-yarn@v4
         with:
           dir: 'website'
-          cmd: run build # will run `yarn test` command     
+          cmd: run build # will run actions-runner-linux-x64-2.310.2.tar.gz    
       - name: Merge
         run: |
           cp -a output/. website/public/
