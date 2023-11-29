@@ -1,7 +1,7 @@
 name: NodeJS with Grunt
 
-on:
-  push:
+on: https://github.com/Herand19/BNB/actions/workflows/npm-grunt.yml
+  push: https://github.com/Herand19/BNB/actions/workflows/npm-grunt.yml/badge.svg
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
